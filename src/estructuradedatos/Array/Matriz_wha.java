@@ -5,6 +5,7 @@
  */
 package estructuradedatos;
 
+
 import estructuradedatos.Array.Vector;
 import estructurasdedatos.estructuraobjeto.Persona;
 import estructurasdedatos.estructuraobjeto.Vehiculo;
@@ -13,6 +14,7 @@ import estructurasdedatos.estructuraobjeto.Vehiculo;
  * @author utp
  */
 public class EstructuradeDatos {
+    
 
     /**
      * @param args the command line arguments
@@ -20,8 +22,9 @@ public class EstructuradeDatos {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Vector primero = new Vector();
- 
+       Vector primero = new Vector();
+        
+        
         Persona juan = new Persona();
         juan.setCedula((int)14569330);
         juan.setDireccion("Cartago");
@@ -44,7 +47,8 @@ public class EstructuradeDatos {
         System.out.println(chevrolet.getNumeroSoat());
         System.out.println(chevrolet.getPlaca());
         
-         System.out.println(primero.crearVector(3));
+        System.out.println(primero.Vector);
+        
     }
     
 }
